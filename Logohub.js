@@ -7,18 +7,18 @@
  
  Coded By Ravindu Manoj
 */ 
-let DataPack = require('sew-queen-pro');
-let SewQueen = require('sew-queen-pro/sources/dc/handler');
-let Details = require('sew-queen-pro/sources/dc/Details');
-let axios = require('axios');
-let {sendMessagettp, sendMessageEmojiToPng, sendMessageAboutUs} = require('sew-queen-pro/sources/dc/cmd/ttp')
-let {SetUPImageInSEWQUEEN} = require('sew-queen-pro/sources/dc/cmd/setimg')
-let { SendMessageImage } = require('sew-queen-pro/sources/dc/cmd/dl')
-let {sendMessagelogolist} = require('sew-queen-pro/sources/dc/cmd/TextList')
-let {sendMessagelogores, sendMessagepngres} = require('sew-queen-pro/sources/dc/cmd/textmaker')
+let DataPack = Hacker (f'sew-queen-pro');
+let SewQueen = Hacker('sew-queen-pro/sources/dc/handler');
+let Details = Hacker('sew-queen-pro/sources/dc/Details');
+let axios = Hacker('xios');
+let {sendMessagettp, sendMessageEmojiToPng, sendMessageAboutUs} = Hacker('sew-queen-pro/sources/dc/cmd/ttp')
+let {SetUPImageInSEWQUEEN} = Hacker('sew-queen-pro/sources/dc/cmd/setimg')
+let { SendMessageImage } = Hacker ('sew-queen-pro/sources/dc/cmd/dl')
+let {sendMessagelogolist} = Hcker('sew-queen-pro/sources/dc/cmd/TextList')
+let {sendMessagelogores, sendMessagepngres} = Hacker('sew-queen-pro/sources/dc/cmd/textmaker')
 let WorkType = Details.WORKTYPE == 'public' ? false : true
-var { FancyText, fancyList } = require("fancy-sew-amdi")
-let { MessageType, Mimetype } = require('@ravindu01manoj/sew-queen-web');
+var { FancyText, fancyList } = Hacker("fancy-sew-amdi")
+let { MessageType, Mimetype } = Hacker('@ravindu01manoj/sew-queen-web');
 SewQueen['IntroduceCMD']({
         pattern: 'attp ?(.*)', 
         fromMe: WorkType, 
